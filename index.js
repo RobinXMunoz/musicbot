@@ -170,6 +170,6 @@ async function playSong(guild) {
 console.log("VARIABLES:");
 console.log(Object.keys(process.env));
 
-console.log("TOKEN:", process.env.TOKEN);
+console.log("PRUEBA =", process.env.PRUEBA);
 
-client.login(process.env.TOKEN);
+process.exit(0);
