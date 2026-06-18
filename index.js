@@ -167,5 +167,5 @@ async function playSong(guild) {
     }
 }
 
-// 🔐 TOKEN DESDE RAILWAY
+console.log("TOKEN:", process.env.TOKEN);
 client.login(process.env.TOKEN);
